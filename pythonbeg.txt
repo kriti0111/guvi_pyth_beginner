@@ -1,0 +1,27 @@
+1. To find the simple interest 
+
+# your code goes here
+# python version:3
+#to calculate simple interest
+p= raw_input()
+r= raw_input()
+t= raw_input()
+si =(int(p)* int(r)*int(t))/100
+print(si)
+
+
+2. To find the sqrt of a number
+import math
+#to calculate dquare root of a number
+p= raw_input()
+print math.sqrt(int(p))
+
+or 
+p= raw_input()
+t= int(p)**0.5
+print t
+
+3. To convert lower case vto upper case
+
+p = raw_input()
+print p.upper()
